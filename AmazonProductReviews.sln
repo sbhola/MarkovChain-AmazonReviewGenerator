@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonProductReviews", "AmazonProductReviews\AmazonProductReviews.csproj", "{3EB13D7D-B542-47C6-AE1E-A2D1EF8CE311}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonProductReviewsWebAPI", "AmazonProductReviews\AmazonProductReviewsWebAPI.csproj", "{3EB13D7D-B542-47C6-AE1E-A2D1EF8CE311}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkovService", "MarkovService\MarkovService.csproj", "{163FE28E-8CFC-4B5F-B0C5-55F273FCADF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{2A14FDA2-599F-4F43-9F8F-844D7BCA8D95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonReviewTests", "AmazonReviewTests\AmazonReviewTests.csproj", "{D7048C7A-52C8-4614-9F56-D6A0AFB4C99B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{3EB13D7D-B542-47C6-AE1E-A2D1EF8CE311}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EB13D7D-B542-47C6-AE1E-A2D1EF8CE311}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EB13D7D-B542-47C6-AE1E-A2D1EF8CE311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{163FE28E-8CFC-4B5F-B0C5-55F273FCADF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{163FE28E-8CFC-4B5F-B0C5-55F273FCADF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{163FE28E-8CFC-4B5F-B0C5-55F273FCADF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{163FE28E-8CFC-4B5F-B0C5-55F273FCADF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A14FDA2-599F-4F43-9F8F-844D7BCA8D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A14FDA2-599F-4F43-9F8F-844D7BCA8D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A14FDA2-599F-4F43-9F8F-844D7BCA8D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A14FDA2-599F-4F43-9F8F-844D7BCA8D95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7048C7A-52C8-4614-9F56-D6A0AFB4C99B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7048C7A-52C8-4614-9F56-D6A0AFB4C99B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7048C7A-52C8-4614-9F56-D6A0AFB4C99B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7048C7A-52C8-4614-9F56-D6A0AFB4C99B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
